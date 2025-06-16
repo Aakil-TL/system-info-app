@@ -8,4 +8,4 @@ How to build
 
 - `npm build`
 
-echo "# Updated" >> README.md
+echo " Updated" >> README.md
