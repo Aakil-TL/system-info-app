@@ -18,7 +18,7 @@
     "systeminformation": "^5.22.7"
   },
   "build": {
-    "publish": "never",
+    "publish": null,  
     "appId": "com.example.systeminfo",
     "productName": "System Info App",
     "directories": {
