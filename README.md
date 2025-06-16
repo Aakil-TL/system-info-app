@@ -7,3 +7,5 @@ How to run
 How to build
 
 - `npm build`
+
+echo "# Updated" >> README.md
