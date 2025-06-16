@@ -2,7 +2,7 @@ name: Build Electron App
 
 on:
   push:
-    branches: [ main ]  # Change to 'master' if your default branch is master
+    branches: [ main ]  # or master if that's your branch
 
 jobs:
   build:
@@ -22,8 +22,6 @@ jobs:
 
       - name: Build Windows installer
         run: npm run build
-        env:
-          GH_TOKEN: "fake-token"  # Prevents publishing to GitHub Releases
 
       - name: Upload .exe as artifact
         uses: actions/upload-artifact@v4

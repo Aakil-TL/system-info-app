@@ -18,6 +18,7 @@
     "systeminformation": "^5.22.7"
   },
   "build": {
+    "publish": "never",
     "appId": "com.example.systeminfo",
     "productName": "System Info App",
     "directories": {
@@ -27,12 +28,10 @@
       "**/*"
     ],
     "win": {
-      "target": "nsis",
-      "icon": "icon.ico"
+      "target": "nsis"
     },
     "mac": {
-      "target": "dmg",
-      "icon": "icon.icns"
+      "target": "dmg"
     }
   }
 }
