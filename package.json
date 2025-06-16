@@ -27,12 +27,12 @@
       "**/*"
     ],
     "win": {
-      "target": "nsis",
-      "icon": "icon.ico"
+      "target": "nsis"
+      
     },
     "mac": {
-      "target": "dmg",
-      "icon": "icon.icns"
+      "target": "dmg"
+      
     }
   }
 }
